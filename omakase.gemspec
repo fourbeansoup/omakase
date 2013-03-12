@@ -7,11 +7,11 @@ require "omakase/version"
 Gem::Specification.new do |s|
   s.name        = "omakase"
   s.version     = Omakase::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Omakase."
-  s.description = "TODO: Description of Omakase."
+  s.authors     = ["Josh Owens"]
+  s.email       = ["joshua.owens@gmail.com"]
+  s.homepage    = "https://github.com/fourbeansoup/omakase"
+  s.summary     = "A rails engine that tracks noted changes from commit messages to show to customers"
+  s.description = "Coming soon"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
