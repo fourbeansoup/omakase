@@ -13,6 +13,7 @@ group :test do
   gem 'actionmailer'
   gem 'actionpack'
   gem 'rspec-rails'
+  gem 'capybara'
   #gem 'factory_girl_rails'
 end
 
