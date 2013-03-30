@@ -1,3 +1,3 @@
-class Payload < ActiveRecord::Base
+class Payload
 
 end
