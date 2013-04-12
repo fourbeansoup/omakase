@@ -11,6 +11,9 @@ rescue LoadError
   require 'rake/rdoctask'
   RDoc::Task = Rake::RDocTask
 end
+require "rspec/core/rake_task"
+
+RSpec::Core::RakeTask.new
 
 RDoc::Task.new(:rdoc) do |rdoc|
   rdoc.rdoc_dir = 'rdoc'
