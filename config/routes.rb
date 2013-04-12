@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :messages
+  resources :github_payloads
 end

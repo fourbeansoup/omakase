@@ -1,4 +1,4 @@
-class MessagesController < ActionController::Base 
+class GithubPayloadsController < ActionController::Base 
 
   def create
     Payload.create(params[:payload])
